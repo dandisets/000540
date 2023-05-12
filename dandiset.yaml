@@ -20,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 472923037048
-  numberOfFiles: 649
+  numberOfBytes: 1003937347960
+  numberOfFiles: 990
   numberOfSubjects: 33
   schemaKey: AssetsSummary
   species:
@@ -51,7 +51,6 @@ contributor:
   name: Kleinfeld, David
   roleName:
   - dcite:Author
-  - dcite:ContactPerson
   schemaKey: Person
   url: https://neurophysics.ucsd.edu/
 - affiliation: []
