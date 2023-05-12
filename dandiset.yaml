@@ -8,9 +8,29 @@ access:
   status: dandi:OpenAccess
 acknowledgement: ''
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 472923037048
+  numberOfFiles: 649
+  numberOfSubjects: 33
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
+    name: Rattus norvegicus - Norway rat
+    schemaKey: SpeciesType
+  variableMeasured:
+  - BehavioralTimeSeries
+  - ProcessingModule
 citation: 'Liao, Song-Mao; Kleinfeld, David; Rinehart, Duane; University of California
   San Diego (2023) Dataset for: A change in behavioral state switches the pattern
   of motor output that underlies rhythmic head and orofacial movements (Version draft)
@@ -18,16 +38,20 @@ citation: 'Liao, Song-Mao; Kleinfeld, David; Rinehart, Duane; University of Cali
 contributor:
 - affiliation: []
   email: songmao.liao@gmail.com
+  identifier: 0000-0001-9011-800X
   includeInCitation: true
   name: Liao, Song-Mao
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
   schemaKey: Person
 - affiliation: []
   email: dk@physics.ucsd.edu
   includeInCitation: true
   name: Kleinfeld, David
-  roleName: []
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
   url: https://neurophysics.ucsd.edu/
 - affiliation: []
@@ -75,7 +99,14 @@ name: 'Dataset for: A change in behavioral state switches the pattern of motor o
   that underlies rhythmic head and orofacial movements'
 protocol:
 - https://doi.org/10.1016/j.cub.2023.04.008
-relatedResource: []
+relatedResource:
+- identifier: Paper
+  name: A change in behavioral state switches the pattern of motor output that underlies
+    rhythmic head and orofacial movements
+  relation: dcite:IsPublishedIn
+  repository: Current Biology
+  schemaKey: Resource
+  url: https://www.sciencedirect.com/science/article/pii/S0960982223004566
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
