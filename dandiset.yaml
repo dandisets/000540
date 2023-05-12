@@ -6,13 +6,7 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: We thank Rodolfo Figueroa for assistance with the instrumentation;
-  Zaneta Ku, Peyton O’Callaghan, Emma Osgood, Sabrina Tuell, and Nina Zhang for animal
-  training; Julia Kuhl for drawing all illustrations; Martyn Goulding, Jill Leutgeb,
-  Fan Wang, Jing Wang, and Arash Fassihi Zakeri for conversations; and Beth Friedman
-  and Philipp Mächler for comments on a draft manuscript. This work was supported
-  by the Taiwan Ministry of Education Scholarship (GSSA) and the United States National
-  Institutes of Health (R01 NS058668; U01 NS090595; U19 NS107466).
+acknowledgement: ''
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -30,10 +24,12 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 - affiliation: []
+  email: dk@physics.ucsd.edu
   includeInCitation: true
   name: Kleinfeld, David
   roleName: []
   schemaKey: Person
+  url: https://neurophysics.ucsd.edu/
 - affiliation: []
   includeInCitation: true
   name: Rinehart, Duane
@@ -51,11 +47,11 @@ contributor:
   url: https://ucsd.edu/
 dateCreated: '2023-05-11T21:01:04.628860+00:00'
 description: Recorded multi-modal data (videography, respiration, electromyogram,
-  and wearable sensor signals) from rats performing foraging and rearing behaviors
-  in an open arena. Dataset for S.-M. Liao and D. Kleinfeld, Current Biology (2023).
-  A change in behavioral state switches the pattern of motor output that underlies
-  rhythmic head and orofacial movements. Dataset uploaded by the Kleinfeld Laboratory
-  at University of California San Diego.
+  wearable sensor signals, and human annotation) from rats performing naturalistic
+  foraging and rearing behaviors in an open arena. Dataset for S.-M. Liao and D. Kleinfeld,
+  Current Biology (2023). A change in behavioral state switches the pattern of motor
+  output that underlies rhythmic head and orofacial movements. Dataset uploaded by
+  the Kleinfeld Laboratory at University of California San Diego.
 ethicsApproval: []
 id: DANDI:000540/draft
 identifier: DANDI:000540
