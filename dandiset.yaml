@@ -37,13 +37,13 @@ citation: 'Liao, Song-Mao; Kleinfeld, David; Rinehart, Duane; University of Cali
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000540/draft'
 contributor:
 - affiliation: []
-  email: songmao.liao@gmail.com
-  identifier: 0000-0001-9011-800X
+  awardNumber: GSSA
+  email: soliao@ucsd.edu
   includeInCitation: true
   name: Liao, Song-Mao
   roleName:
-  - dcite:ContactPerson
   - dcite:Author
+  - dcite:ContactPerson
   schemaKey: Person
 - affiliation: []
   email: dk@physics.ucsd.edu
@@ -54,6 +54,7 @@ contributor:
   schemaKey: Person
   url: https://neurophysics.ucsd.edu/
 - affiliation: []
+  email: drinehart@physics.ucsd.edu
   includeInCitation: true
   name: Rinehart, Duane
   roleName:
@@ -69,12 +70,14 @@ contributor:
   schemaKey: Organization
   url: https://ucsd.edu/
 dateCreated: '2023-05-11T21:01:04.628860+00:00'
+datePublished: '2023-05-15T05:30:11.452626+00:00'
 description: Recorded multi-modal data (videography, respiration, electromyogram,
   wearable sensor signals, and human annotation) from rats performing naturalistic
   foraging and rearing behaviors in an open arena. Dataset for S.-M. Liao and D. Kleinfeld,
   Current Biology (2023). A change in behavioral state switches the pattern of motor
   output that underlies rhythmic head and orofacial movements. Dataset uploaded by
-  the Kleinfeld Laboratory at University of California San Diego.
+  the Kleinfeld Laboratory at University of California San Diego. Code can be found
+  on https://rhythm-n-rodents.github.io/software/.
 ethicsApproval: []
 id: DANDI:000540/draft
 identifier: DANDI:000540
@@ -98,6 +101,18 @@ name: 'Dataset for: A change in behavioral state switches the pattern of motor o
   that underlies rhythmic head and orofacial movements'
 protocol:
 - https://doi.org/10.1016/j.cub.2023.04.008
+publishedBy:
+  endDate: '2023-05-15T05:30:11.452626+00:00'
+  id: urn:uuid:082cafd7-9984-4b87-905d-b5508b052afa
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-05-15T05:30:11.452626+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:478e72a2-d5b7-4975-8aa5-59986b537cfd
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: Paper
   name: A change in behavioral state switches the pattern of motor output that underlies
